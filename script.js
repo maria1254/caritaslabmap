@@ -5,7 +5,7 @@ var val2 = document.frmMain.sct2.value;
 var myURL;
 switch(val1+val2){
 case "Aa":
-myURL = "index2.html"
+myURL = "test1.html"
 break;
 case "Ab":
 myURL = "http://www.google.co.jp/"
