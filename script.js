@@ -8,7 +8,7 @@ case "Aa":
 myURL = "test1.html"
 break;
 case "Ab":
-myURL = "http://www.google.co.jp/"
+myURL = "test2.html"
 break;
 case "Ba":
 myURL = "http://www.infoseek.co.jp/"

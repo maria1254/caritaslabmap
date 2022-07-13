@@ -2,25 +2,38 @@
 <html>
 
 <head>
-<title>タイトル</title>
+<title>Caritas map</title>
+<meta charset="UTF-8">
 <script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="style1.css">
 </head>
 
 <body>
+    <div class="select">
 <form name="frmMain">
-現在地を選択してください
-<select name="sct1" size="1" style="width:60px;">
-<option value="A">数学室</option>
-<option value="B">社会室</option>
-</select><br />
-目的地を選択してください
-<select name="sct2" size="1" style="width:60px;">
-<option value="a">英語室</option>
-<option value="b">体育館</option>
-</select>
+ 
+<p>現在地を選択してください</p>
+    <select name="sct1" size="1" style="width:60px;">
+        <option value="A">数学室</option>
+        <option value="B">社会室</option>
+    </select><br />
+    
+    <p>目的地を選択してください</p>
+    <select name="sct2" size="1" style="width:60px;">
+        <option value="a">英語室</option>
+        <option value="b">体育館</option>
+    </select>
+
+
 <input type="button" name="btnSubmit"
 value="決定" onclick="mySubmit();">
 </form>
+
+</div>
+
+
 </body>
 
 </html>
+
+
